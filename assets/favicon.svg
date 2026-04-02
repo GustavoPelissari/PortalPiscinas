@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Portal Piscinas">
+  <defs>
+    <linearGradient id="portal-yellow" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffe88d" />
+      <stop offset="100%" stop-color="#ffd33b" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="34" fill="#0f8cc9" />
+  <path d="M33 94V34h31c15 0 26 9 26 23s-11 23-26 23H50v14H33Zm17-30h12c6 0 10-3 10-7s-4-7-10-7H50v14Z" fill="url(#portal-yellow)" />
+  <circle cx="96" cy="36" r="7" fill="#ffd33b" />
+  <g stroke="#ffd33b" stroke-linecap="round" stroke-width="4">
+    <path d="M96 21v-7" />
+    <path d="M96 58v-7" />
+    <path d="M81 36h-7" />
+    <path d="M118 36h-7" />
+    <path d="M85.5 25.5l-4.5-4.5" />
+    <path d="M111 51l-4.5-4.5" />
+    <path d="M85.5 46.5L81 51" />
+    <path d="M111 21l-4.5 4.5" />
+  </g>
+</svg>
