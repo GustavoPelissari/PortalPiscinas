@@ -254,33 +254,24 @@ footer {
   box-shadow: 0 12px 30px rgba(7, 50, 77, 0.16);
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  gap: 0.22rem;
 }
 
 .menu-toggle span {
   display: block;
-  width: 1.5rem;
+  width: 1.6rem;
   height: 3px;
-  margin: 0.22rem auto;
   background: var(--brand-deeper);
   border-radius: 999px;
-  transition: transform 0.25s ease, opacity 0.25s ease;
+  transition: background-color 0.2s ease;
 }
 
-.menu-toggle span:nth-child(2) {
+.menu-toggle span:nth-child(1),
+.menu-toggle span:nth-child(2),
+.menu-toggle span:nth-child(3) {
+  transform: none;
   opacity: 1;
-}
-
-
-body[data-menu-open="true"] .menu-toggle span:nth-child(1) {
-  transform: translateY(7px) rotate(45deg);
-}
-
-body[data-menu-open="true"] .menu-toggle span:nth-child(2) {
-  opacity: 0;
-}
-
-body[data-menu-open="true"] .menu-toggle span:nth-child(3) {
-  transform: translateY(-7px) rotate(-45deg);
 }
 
 .button {
